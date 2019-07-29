@@ -1,0 +1,20 @@
+----- in_array -----
+Start: 2019/07/29 11:58:49
+End: 2019/07/29 11:59:05
+Elapsed time: 15.6961s
+Speed: 1569.6129ms per time
+----- flip, array_key_exists -----
+Start: 2019/07/29 11:59:05
+End: 2019/07/29 11:59:08
+Elapsed time: 3.2446s
+Speed: 324.4646ms per time
+----- array_intersect -----
+Start: 2019/07/29 11:59:08
+End: 2019/07/29 11:59:09
+Elapsed time: 0.8327s
+Speed: 83.2667ms per time
+----- flip, isset -----
+Start: 2019/07/29 11:59:09
+End: 2019/07/29 11:59:09
+Elapsed time: 0.0882s
+Speed: 8.8241ms per time
