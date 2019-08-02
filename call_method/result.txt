@@ -1,0 +1,12 @@
+----- assignment in if -----
+Start: 2019/08/02 17:48:48
+End: 2019/08/02 17:48:55
+Elapsed time: 7.3964s
+Loop: 1000000time
+Speed: 7.3964μs per time
+----- no assignment -----
+Start: 2019/08/02 17:48:55
+End: 2019/08/02 17:49:06
+Elapsed time: 10.7153s
+Loop: 1000000time
+Speed: 10.7153μs per time
