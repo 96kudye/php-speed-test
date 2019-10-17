@@ -1,0 +1,12 @@
+----- raw_loop_sum -----
+Start: 2019/10/17 16:17:12
+End: 2019/10/17 16:17:13
+Elapsed time: 1.0800s
+Speed: 1.0800ms per time
+Result: 5071.1792837988
+----- standard_func -----
+Start: 2019/10/17 16:17:14
+End: 2019/10/17 16:17:14
+Elapsed time: 0.0497s
+Speed: 0.0497ms per time
+Result: 4980.2626179738
