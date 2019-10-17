@@ -1,7 +1,7 @@
 #!/usr/bin/env php
 <?php
 
-const SIZE = 10000;
+const SIZES = [10 ** 1, 10 ** 2, 10 ** 3, 10 ** 4, 10 ** 5,];
 const REPEAT_TIME = 1000;
 
 function standard_func(array $array) {
@@ -16,9 +16,9 @@ function raw_loop_sum(array $array) {
     return $result;
 }
 
-function speed_test(string $func_name, callable $test_func) {
+function speed_test(string $func_name, callable $test_func, int $size) {
     $random_element_array = [];
-    for ($i = 0; $i < SIZE; $i++) {
+    for ($i = 0; $i < $size; $i++) {
         $random_element_array[] = mt_rand() / mt_getrandmax();
     }
 
@@ -35,8 +35,12 @@ function speed_test(string $func_name, callable $test_func) {
     echo "End: " . date("Y/m/d H:i:s") . PHP_EOL;
     echo "Elapsed time: " . sprintf("%.4f", $diff) . "s" . PHP_EOL;
     echo "Speed: " . sprintf("%.4f", 1000 * $diff / REPEAT_TIME) . "ms per time" . PHP_EOL;
-    echo "Result: " . $result . PHP_EOL;
 }
 
-speed_test('raw_loop_sum', 'raw_loop_sum');
-speed_test('standard_func', 'standard_func');
+echo "Loop: " . REPEAT_TIME . "time" . PHP_EOL;
+foreach (SIZES as $size) {
+    echo "Array size: {$size}" . PHP_EOL;
+    speed_test('raw_loop_sum', 'raw_loop_sum', $size);
+    speed_test('standard_func', 'standard_func', $size);
+    echo PHP_EOL;
+}

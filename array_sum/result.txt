@@ -1,12 +1,60 @@
+Loop: 1000time
+Array size: 10
 ----- raw_loop_sum -----
-Start: 2019/10/17 16:17:12
-End: 2019/10/17 16:17:13
-Elapsed time: 1.0800s
-Speed: 1.0800ms per time
-Result: 5071.1792837988
+Start: 2019/10/17 16:28:12
+End: 2019/10/17 16:28:12
+Elapsed time: 0.0085s
+Speed: 0.0085ms per time
 ----- standard_func -----
-Start: 2019/10/17 16:17:14
-End: 2019/10/17 16:17:14
-Elapsed time: 0.0497s
-Speed: 0.0497ms per time
-Result: 4980.2626179738
+Start: 2019/10/17 16:28:12
+End: 2019/10/17 16:28:12
+Elapsed time: 0.0147s
+Speed: 0.0147ms per time
+
+Array size: 100
+----- raw_loop_sum -----
+Start: 2019/10/17 16:28:12
+End: 2019/10/17 16:28:12
+Elapsed time: 0.0193s
+Speed: 0.0193ms per time
+----- standard_func -----
+Start: 2019/10/17 16:28:12
+End: 2019/10/17 16:28:12
+Elapsed time: 0.0153s
+Speed: 0.0153ms per time
+
+Array size: 1000
+----- raw_loop_sum -----
+Start: 2019/10/17 16:28:12
+End: 2019/10/17 16:28:12
+Elapsed time: 0.1189s
+Speed: 0.1189ms per time
+----- standard_func -----
+Start: 2019/10/17 16:28:12
+End: 2019/10/17 16:28:12
+Elapsed time: 0.0230s
+Speed: 0.0230ms per time
+
+Array size: 10000
+----- raw_loop_sum -----
+Start: 2019/10/17 16:28:13
+End: 2019/10/17 16:28:14
+Elapsed time: 1.0771s
+Speed: 1.0771ms per time
+----- standard_func -----
+Start: 2019/10/17 16:28:14
+End: 2019/10/17 16:28:14
+Elapsed time: 0.0498s
+Speed: 0.0498ms per time
+
+Array size: 100000
+----- raw_loop_sum -----
+Start: 2019/10/17 16:28:15
+End: 2019/10/17 16:28:26
+Elapsed time: 10.6616s
+Speed: 10.6616ms per time
+----- standard_func -----
+Start: 2019/10/17 16:28:27
+End: 2019/10/17 16:28:27
+Elapsed time: 0.3748s
+Speed: 0.3748ms per time

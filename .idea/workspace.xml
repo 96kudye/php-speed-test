@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="0dc8ba03-9338-4dd4-afe8-9a724c668388" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/array_sum/result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/array_sum/result.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/array_sum/speed_test.php" beforeDir="false" afterPath="$PROJECT_DIR$/array_sum/speed_test.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,7 +66,7 @@
       <updated>1564374662520</updated>
       <workItem from="1564374664001" duration="337000" />
       <workItem from="1564737158942" duration="581000" />
-      <workItem from="1570198680464" duration="5044000" />
+      <workItem from="1570198680464" duration="5827000" />
     </task>
     <servers />
   </component>
