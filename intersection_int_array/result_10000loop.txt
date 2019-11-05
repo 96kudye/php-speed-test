@@ -1,0 +1,60 @@
+Loop: 10000time
+Array size: 10
+----- flip_isset -----
+Start: 2019/11/05 14:58:13
+End: 2019/11/05 14:58:13
+Elapsed time: 0.1517s
+Speed: 0.0152ms per time
+----- flip_isset_cached -----
+Start: 2019/11/05 14:58:13
+End: 2019/11/05 14:58:13
+Elapsed time: 0.0902s
+Speed: 0.0090ms per time
+
+Array size: 100
+----- flip_isset -----
+Start: 2019/11/05 14:58:13
+End: 2019/11/05 14:58:14
+Elapsed time: 0.2270s
+Speed: 0.0227ms per time
+----- flip_isset_cached -----
+Start: 2019/11/05 14:58:14
+End: 2019/11/05 14:58:14
+Elapsed time: 0.1459s
+Speed: 0.0146ms per time
+
+Array size: 1000
+----- flip_isset -----
+Start: 2019/11/05 14:58:14
+End: 2019/11/05 14:58:15
+Elapsed time: 0.8497s
+Speed: 0.0850ms per time
+----- flip_isset_cached -----
+Start: 2019/11/05 14:58:15
+End: 2019/11/05 14:58:15
+Elapsed time: 0.7387s
+Speed: 0.0739ms per time
+
+Array size: 10000
+----- flip_isset -----
+Start: 2019/11/05 14:58:15
+End: 2019/11/05 14:58:22
+Elapsed time: 6.9708s
+Speed: 0.6971ms per time
+----- flip_isset_cached -----
+Start: 2019/11/05 14:58:22
+End: 2019/11/05 14:58:29
+Elapsed time: 6.5822s
+Speed: 0.6582ms per time
+
+Array size: 100000
+----- flip_isset -----
+Start: 2019/11/05 14:58:29
+End: 2019/11/05 14:59:55
+Elapsed time: 86.2443s
+Speed: 8.6244ms per time
+----- flip_isset_cached -----
+Start: 2019/11/05 14:59:55
+End: 2019/11/05 15:01:00
+Elapsed time: 64.7240s
+Speed: 6.4724ms per time
